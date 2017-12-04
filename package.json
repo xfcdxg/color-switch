@@ -1,0 +1,38 @@
+{
+  "name": "color-switch",
+  "version": "1.0.0",
+  "description": "color switch",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "gulp && gulp uglify"
+  },
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xfcdxg/color-switch.git"
+  },
+  "author": "zhou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xfcdxg/color-switch/issues"
+  },
+  "homepage": "https://github.com/xfcdxg/color-switch#readme",
+  "dependencies": {
+    "hex-rgb": "^1.0.0",
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-import": "^1.5.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-eslint": "^4.0.0",
+    "gulp-uglify": "^3.0.0",
+    "pump": "^1.0.2"
+  }
+}
