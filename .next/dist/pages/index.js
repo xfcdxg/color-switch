@@ -1,23 +1,27 @@
-"use strict";
+'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = require("react");
+var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+var _layout = require('../components/layout');
+
+var _layout2 = _interopRequireDefault(_layout);
+
+var _color = require('../lib/color');
+
+var _color2 = _interopRequireDefault(_color);
+
+var _colorSwitch = require('../color-switch');
+
+var _colorSwitch2 = _interopRequireDefault(_colorSwitch);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = "/Users/prd/Documents/_git/_personal/color-switch/pages/index.js?entry";
-
 exports.default = function () {
-  return _react2.default.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 2
-    }
-  }, "hello");
+  return _react2.default.createElement(_layout2.default, null, _react2.default.createElement('h1', { style: { color: _color2.default[0] } }, 'Im Color Switch'), _react2.default.createElement('h2', { style: { color: _color2.default[1] } }, 'Im Color Switch'), _react2.default.createElement('h3', { style: { color: _color2.default[2] } }, 'Im Color Switch'));
 };
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2luZGV4LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7OztBQUFBOzs7Ozs7OztrQkFDRSxZQUFBO3lCQUFPLGNBQUE7O2dCQUFBO2tCQUFBO0FBQUE7QUFBQSxHQUFBLEVBQVAsQUFBTztBQURUIiwiZmlsZSI6ImluZGV4LmpzP2VudHJ5Iiwic291cmNlUm9vdCI6Ii9Vc2Vycy9wcmQvRG9jdW1lbnRzL19naXQvX3BlcnNvbmFsL2NvbG9yLXN3aXRjaCJ9
