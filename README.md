@@ -1,16 +1,34 @@
 # color-switch
 
-[![npm][npm-image]][npm-url]
-
 用于切换站内主题色
 
-更改样式包含：color、border-color、background-color
+[![npm][npm-image]][npm-url]
 
-支持SVG
+### Demo
 
-方法只需要在进入页面时调用一次，调用后会监听 DOM Tree 及 StyleTag 的更新，动态修改内部相关的色值
+[Demo][demo-url]
 
-如果是SSR，建议在Client端调用（因为Server端不支持...略略略）
+### Example
+
+[Example][example-url]
+
+### Scope
+
+DOMElement
+
+  * color
+  * border-color
+  * background-color
+
+StyleSheet
+
+  * color
+  * border-color
+  * background-color
+
+SVG
+
+  * fill
 
 ### Installation
 ```bash
@@ -31,5 +49,13 @@
   colorSwitch(fromColorList, toColorList)
 ```
 
+### Attention
+
+只需在进入页面时调用该方法，调用后会监听 DOM Tree 及 StyleTag 的变化，动态修改内部相关的色值
+
+如果是 SSR，建议在 Client 端调用（因为 Server 端不支持...略略略）
+
 [npm-image]:https://img.shields.io/badge/npm-v1.0.1-green.svg
 [npm-url]:https://www.npmjs.com/package/color-switcher
+[demo-url]:https://xfcdxg.github.io/color-switch/
+[example-url]:https://github.com/xfcdxg/color-switch-example.git
