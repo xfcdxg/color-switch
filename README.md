@@ -55,7 +55,7 @@ SVG
 
 如果是 SSR，建议在 Client 端调用（因为 Server 端不支持...略略略）
 
-[npm-image]:https://img.shields.io/badge/npm-v1.0.2-green.svg
-[npm-url]:https://www.npmjs.com/package/color-switcher
+[npm-image]:https://img.shields.io/badge/npm-v1.0.3-green.svg
+[npm-url]:https://www.npmjs.com/package/color-switch
 [demo-url]:https://xfcdxg.github.io/color-switch/
 [example-url]:https://github.com/xfcdxg/color-switch-example.git
