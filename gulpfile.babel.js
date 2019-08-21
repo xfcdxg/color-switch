@@ -7,7 +7,7 @@ const src  = gulp.src('src/**/*')
 const dist = gulp.dest('dist')
 const lib = gulp.dest('common')
 
-gulp.task('default', ['build'])
+// gulp.task('default', gulp.series('build', () => {}))
 
 gulp.task('build', () =>
   pump([

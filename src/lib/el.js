@@ -15,7 +15,7 @@ const getTo = (color, to) => {
   return to
 }
 const diffAttr = attrName => el => {
-  const to = compose(getTo, toUpperCase)(attr(el, attrName))
+  const to = compose(getTo, toUpper)(attr(el, attrName))
   if (to) {
     attr(el, attrName, to)
   }

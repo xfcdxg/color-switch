@@ -63,7 +63,7 @@ var getTo = function getTo(color, to) {
 };
 var diffAttr = function diffAttr(attrName) {
   return function (el) {
-    var to = (0, _compose3.default)(getTo, toUpperCase)((0, _.attr)(el, attrName));
+    var to = (0, _compose3.default)(getTo, _toUpper3.default)((0, _.attr)(el, attrName));
     if (to) {
       (0, _.attr)(el, attrName, to);
     }
